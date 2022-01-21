@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biussadsonggiver</title>
+    <link rel="icon" type="image/png" href="/assets/img/biussadsonggiver_light.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.lazywasabi.net/fonts/Anakotmai/Anakotmai.css?woff2" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, .9);
+            font-family: 'Anakotmai', sans-serif;
+
+        }
+
+        .bolder {
+            font-weight: bolder;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        .btn-lg {
+            font-size: 1.5rem;
+        }
+
+        .modal {
+            padding-right: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-sm-6 text-white">
+                <img class="img-fluid" src="assets/img/biussadsonggiver_light.png" alt="">
+            </div>
+            <div class="col-sm-12">
+                <p class="text-white">มีทั้งหมด <span id="song_count">999</span> เพลงในระบบ</p>
+                <button class="btn btn-light btn-lg" id="request_song"><i class="bi bi-boombox-fill"></i> <span
+                        class="bolder">ขอเพลงหน่อยดิ</span></button>
+            </div>
+            <div class="col-sm-12 mt-5">
+                <a class="text-white" data-toggle="modal" data-target="#termofserviceandprivacy"
+                    href="#"><ins>ข้อกำหนดการใช้บริการและนโยบายความเป็นส่วนตัว</ins></a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="termofserviceandprivacy">
+        <div class="modal-dialog text-center modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="my-2">
+                        <h2 class="bolder">ข้อกำหนดการใช้บริการ</h2>
+                        <h5 class="bolder">ข้อกำหนดการใช้บริการเว็บไซต์ biussadsonggiver</h5>
+                        <div class="container">
+
+                            <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut corporis
+                                impedit nam illum magnam, ex cupiditate repellendus, praesentium doloremque sapiente quo
+                                ad? Dolores blanditiis, unde, laborum molestias corporis quos nobis autem quam ducimus
+                                sapiente, maxime et temporibus nisi? Culpa accusamus autem itaque porro officiis
+                                molestias sint reiciendis provident maxime nihil? Nesciunt amet, totam, harum ipsam
+                                sequi officia doloremque aperiam deserunt autem ad ratione quos provident eius animi qui
+                                fugit ducimus ipsum laudantium minima nostrum, nobis minus voluptatibus labore natus. Ab
+                                quis accusamus tempora illum officiis commodi illo rem ipsam deleniti sunt voluptatibus,
+                                repellendus beatae esse aliquid dolor distinctio. Accusamus, quia.</p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="my-2">
+                        <h2 class="bolder">นโยบายความเป็นส่วนตัว</h2>
+                        <h5 class="bolder">นโยบายความเป็นส่วนตัวเว็บไซต์ biussadsonggiver</h5>
+                        <div class="container">
+                            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                                quae omnis commodi earum veritatis beatae deleniti, dicta voluptatibus voluptas quisquam
+                                magni tempore harum numquam libero consequatur, maiores aut eos hic fugiat! Quis, sit
+                                voluptatibus aliquam ex minima ipsum, eos suscipit dolore cumque neque laboriosam
+                                similique vitae recusandae sequi tempore amet!</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="song_selected">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <img class="img-fluid" id="song_thumbnail" src="" alt="">
+                <div class="modal-body">
+                    <h5 class="bolder" id="song_title">ชื่อเพลง</h5>
+                    <div class="row justify-content-center mt-3 text-white">
+                        <div class="col-12 mb-1" id="song_youtube">
+                            <a class="btn btn-danger btn-block" href="#" target="_"><i class="bi bi-youtube"></i></a>
+                        </div>
+                        <div class="col-12" id="song_spotify">
+                            <a class="btn btn-success btn-block" href="#" target="_"><i class="bi bi-spotify"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        const song_links = ["youtube", "spotify"]
+        $(document).ready(async () => {
+            const song = await fetch("/song.json").then(res => res.json());
+            $("#song_count").html(song.length)
+            $("#request_song").click(() => {
+                const song_selected = song[Math.floor(Math.random() * song.length)];
+                $("#song_selected").modal("show")
+                $("#song_thumbnail").attr("src", song_selected["thumbnail"])
+                $("#song_title").html(song_selected["title"])
+
+                for(let value of song_links) {
+                    $("#song_"+value).hide()
+                }
+
+                Object.keys(song_selected["links"]).forEach((value) => {
+                    const link_element = $("#song_"+value)
+                    link_element.show()
+                    link_element.find("a").attr("href", song_selected["links"][value])
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>
