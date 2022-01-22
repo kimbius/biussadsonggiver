@@ -5,8 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>biussadsonggiver</title>
+
+    <meta name="description" content="ถ้าแกเศร้าแวะมาหาเราได้นะ :)">
+    <meta name="url" content="https://sad.bius.kim/">
+
+    <meta property="og:title" content="biussadsonggiver" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sad.bius.kim/" />
+    <meta property="og:image" content="/assets/img/biussadsonggiver_light.png" />
+    <meta property="og:description" content="ถ้าแกเศร้าแวะมาหาเราได้นะ :)" />
+    <meta name="theme-color" content="#222">
+
+    <meta name="twitter:card" content="/assets/img/biussadsonggiver_light.png">
     <link rel="icon" type="image/png" href="/assets/img/biussadsonggiver_light.png">
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://cdn.lazywasabi.net/fonts/Anakotmai/Anakotmai.css?woff2" rel="stylesheet" />
@@ -14,25 +29,24 @@
 
     <style>
         body {
-            background-color: rgba(0, 0, 0, .9);
+            background-color: #222;
             font-family: 'Anakotmai', sans-serif;
-
+            margin: 0;
         }
 
-        .bolder {
-            font-weight: bolder;
-        }
 
-        h2 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
             margin: 0;
         }
 
         .btn-lg {
             font-size: 1.5rem;
-        }
-
-        .modal {
-            padding-right: 0 !important;
         }
     </style>
 </head>
@@ -45,12 +59,12 @@
                 <img class="img-fluid" src="assets/img/biussadsonggiver_light.png" alt="">
             </div>
             <div class="col-sm-12">
-                <p class="text-white">มีทั้งหมด <span id="song_count">999</span> เพลงในระบบ</p>
                 <button class="btn btn-light btn-lg" id="request_song"><i class="bi bi-boombox-fill"></i> <span
-                        class="bolder">ขอเพลงหน่อยดิ</span></button>
+                        class="font-weight-bolder">ขอเพลงหน่อยดิ</span></button>
             </div>
             <div class="col-sm-12 mt-5">
-                <a class="text-white" data-toggle="modal" data-target="#termofserviceandprivacy"
+                <a class="text-white" style="font-size: 14px;" data-toggle="modal"
+                    data-target="#termofserviceandprivacy"
                     href="#"><ins>ข้อกำหนดการใช้บริการและนโยบายความเป็นส่วนตัว</ins></a>
 
             </div>
@@ -58,39 +72,78 @@
     </div>
 
     <div class="modal fade" id="termofserviceandprivacy">
-        <div class="modal-dialog text-center modal-lg" role="document">
+        <div class="modal-dialog text-center modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="my-2">
-                        <h2 class="bolder">ข้อกำหนดการใช้บริการ</h2>
-                        <h5 class="bolder">ข้อกำหนดการใช้บริการเว็บไซต์ biussadsonggiver</h5>
-                        <div class="container">
-
-                            <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut corporis
-                                impedit nam illum magnam, ex cupiditate repellendus, praesentium doloremque sapiente quo
-                                ad? Dolores blanditiis, unde, laborum molestias corporis quos nobis autem quam ducimus
-                                sapiente, maxime et temporibus nisi? Culpa accusamus autem itaque porro officiis
-                                molestias sint reiciendis provident maxime nihil? Nesciunt amet, totam, harum ipsam
-                                sequi officia doloremque aperiam deserunt autem ad ratione quos provident eius animi qui
-                                fugit ducimus ipsum laudantium minima nostrum, nobis minus voluptatibus labore natus. Ab
-                                quis accusamus tempora illum officiis commodi illo rem ipsam deleniti sunt voluptatibus,
-                                repellendus beatae esse aliquid dolor distinctio. Accusamus, quia.</p>
-
+                        <h2 class="font-weight-bolder">ข้อกำหนดการใช้บริการ</h2>
+                        <h5 class="font-weight-bolder">ข้อกำหนดการใช้บริการเว็บไซต์ biussadsonggiver</h5>
+                        <div class="container text-left mt-3">
+                            <h5 class="mt-4 font-weight-bolder">ข้อ 1 คำนิยามภายในข้อกำหนดนี้</h5>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ก.) “เว็บไซต์” หมายความว่า เว็บไซต์ ชื่อว่า
+                                https://sad.bius.kim/
+                                เรียกอีกชื่อภายในข้อกำหนดนี้ว่า biussadsonggiver</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ข.) “ผู้ใช้งาน” หมายความว่า ผู้เยี่ยมชม ผู้ใช้
+                                สมาชิก ของเว็บไซต์
+                                หรือบุคคลอื่นใดที่เข้าถึงเว็บไซต์ ไม่ว่าการเยี่ยมชม การใช้
+                                หรือการเข้าถึงนั้นจะกระทำด้วยวิธีใด ลักษณะวิธีใด ผ่านอุปกรณ์ใด ผ่านช่องทางใด
+                                และไม่ว่ามีค่าใช้จ่ายหรือไม่ก็ตาม</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ค.) “ข้อมูลส่วนบุคคล” หมายความว่า ข้อมูลใดๆ
+                                ก็ตามไม่ว่าของผู้ใช้งานหรือบุคคลอื่นใดที่สามารถใช้ในการระบุตัวตนของบุคคลบุคคลนั้นได้
+                                ไม่ว่าทางตรงหรือทางอ้อม</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ง.) “เนื้อหา” หมายความว่า ข้อความ บทความ ความคิดเห็น
+                                บทวิเคราะห์ รูปภาพ สัญลักษณ์
+                                เครื่องหมาย รูปภาพประดิษฐ์ ภาพถ่าย ภาพเคลื่อนไหว ภาพยนต์ เสียง สิ่งบันทึกเสียง การออกแบบ
+                                คำสั่ง ชุดคำสั่ง หรือการสื่อสารไม่ว่าลักษณะใดและวิธีใดๆในแอปพลิเคชัน
+                                และไม่ว่าเนื้อหานั้นจะมีการจำกัดการเข้าถึงหรือไม่ก็ตาม</p>
+                            <h5 class="mt-4 font-weight-bolder">ข้อ 2 การอนุญาตให้ใช้งานเว็บไซต์</h5>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เว็บไซต์ biussadsonggiver เป็นผู้ให้บริการการสุ่มหรือค้นหาเพลงจาก Youtube, Spotify และ Apple โดยการสุ่มนี้จะไม่มีค่าใช้จ่ายนอกจากผู้ให้บริการอื่นๆจะมีค่าใช้จ่ายต่างหาก</p>
                         </div>
                     </div>
                     <hr>
                     <div class="my-2">
-                        <h2 class="bolder">นโยบายความเป็นส่วนตัว</h2>
-                        <h5 class="bolder">นโยบายความเป็นส่วนตัวเว็บไซต์ biussadsonggiver</h5>
-                        <div class="container">
-                            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-                                quae omnis commodi earum veritatis beatae deleniti, dicta voluptatibus voluptas quisquam
-                                magni tempore harum numquam libero consequatur, maiores aut eos hic fugiat! Quis, sit
-                                voluptatibus aliquam ex minima ipsum, eos suscipit dolore cumque neque laboriosam
-                                similique vitae recusandae sequi tempore amet!</p>
+                        <h2 class="font-weight-bolder">นโยบายความเป็นส่วนตัว</h2>
+                        <h5 class="font-weight-bolder">นโยบายความเป็นส่วนตัวเว็บไซต์ biussadsonggiver</h5>
+                        <div class="container text-left mt-3">
+                            <h5>นโยบายความเป็นส่วนตัว <span class="font-weight-bolder">biussadsonggiver</span></h5>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“นโยบายนี้จะอธิบายถึงข้อมูลทั่วไปและข้อมูลส่วนตัวที่เราจะเก็บรวบรวมมาจากผู้ใช้งานทุกรายและวิธีที่เราจะนำข้อมูลเหล่านั้นไปใช้”
+                            </p>
+
+                            <h5 class="mt-4 font-weight-bolder">ข้อ 1 คำนิยามภายในข้อกำหนดนี้</h5>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ก.) “เว็บไซต์” หมายความว่า เว็บไซต์ ชื่อว่า
+                                https://sad.bius.kim/
+                                เรียกอีกชื่อภายในข้อกำหนดนี้ว่า biussadsonggiver</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ข.) “ผู้ใช้งาน” หมายความว่า ผู้เยี่ยมชม ผู้ใช้
+                                สมาชิก ของเว็บไซต์
+                                หรือบุคคลอื่นใดที่เข้าถึงเว็บไซต์ ไม่ว่าการเยี่ยมชม การใช้
+                                หรือการเข้าถึงนั้นจะกระทำด้วยวิธีใด ลักษณะวิธีใด ผ่านอุปกรณ์ใด ผ่านช่องทางใด
+                                และไม่ว่ามีค่าใช้จ่ายหรือไม่ก็ตาม</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ค.) “ข้อมูลส่วนบุคคล” หมายความว่า ข้อมูลใดๆ
+                                ก็ตามไม่ว่าของผู้ใช้งานหรือบุคคลอื่นใดที่สามารถใช้ในการระบุตัวตนของบุคคลบุคคลนั้นได้
+                                ไม่ว่าทางตรงหรือทางอ้อม</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ง.) “เนื้อหา” หมายความว่า ข้อความ บทความ ความคิดเห็น
+                                บทวิเคราะห์ รูปภาพ สัญลักษณ์
+                                เครื่องหมาย รูปภาพประดิษฐ์ ภาพถ่าย ภาพเคลื่อนไหว ภาพยนต์ เสียง สิ่งบันทึกเสียง การออกแบบ
+                                คำสั่ง ชุดคำสั่ง หรือการสื่อสารไม่ว่าลักษณะใดและวิธีใดๆในแอปพลิเคชัน
+                                และไม่ว่าเนื้อหานั้นจะมีการจำกัดการเข้าถึงหรือไม่ก็ตาม</p>
+
+                            <h5 class="mt-4 font-weight-bolder">ข้อ 2 ข้อมูลที่เราเก็บรวบรวม</h5>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1
+                                ข้อมูลที่ผู้ใช้งานทุกคนจำเป็นต้องให้เราในการเข้าถึงเว็บไซต์<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ip
+                                adress
+                                (เลขที่อยู่ไอพี)</p>
+
+                            <h5 class="mt-4 font-weight-bolder"> ข้อ 3 เราใช้ข้อมูลที่รวบรวมมาอย่างไร</h5>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การกระทำซึ่งผิดต่อข้อกำหนดการใช้บริการเว็บไซต์ของเราหรือผิดต่อกฏหมายโดยจะส่งมอบข้อมูลเหล่านี้กับหน่วยงานทางกฏหมาย
+                                หากมีการฟ้องร้องและพบว่าผู้ใช้งานได้กระทำผิดจริง
+                                เราขอสิทธิในการมอบข้อมูลทั้งหมดของคุณที่เรามีแก่ผู้ที่ได้รับความเสียหายโดยไม่ต้องแจ้งให้ท่านทราบล่วงหน้า
+                            </p>
 
                         </div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-block" data-dismiss="modal">ปิดหน้าต่าง</button>
                 </div>
             </div>
         </div>
@@ -101,15 +154,25 @@
             <div class="modal-content">
                 <img class="img-fluid" id="song_thumbnail" src="" alt="">
                 <div class="modal-body">
-                    <h5 class="bolder" id="song_title">ชื่อเพลง</h5>
-                    <div class="row justify-content-center mt-3 text-white">
-                        <div class="col-12 mb-1" id="song_youtube">
-                            <a class="btn btn-danger btn-block" href="#" target="_"><i class="bi bi-youtube"></i></a>
+                    <h5 class="font-weight-bolder" id="song_title">ชื่อเพลง</h5>
+                    <p id="song_desc" class="m-0 mb-3">คำอธิบายเพลง</p>
+                    <div class="row justify-content-center text-white">
+                        <div class="col-12" id="song_youtube">
+                            <a class="btn btn-danger btn-block shadow-sm" href="#" target="_"><i
+                                    class="bi bi-youtube"></i></a>
                         </div>
-                        <div class="col-12" id="song_spotify">
-                            <a class="btn btn-success btn-block" href="#" target="_"><i class="bi bi-spotify"></i></a>
+                        <div class="col-12 my-1" id="song_spotify">
+                            <a class="btn btn-success btn-block shadow-sm" href="#" target="_"><i
+                                    class="bi bi-spotify"></i></a>
+                        </div>
+                        <div class="col-12" id="song_apple">
+                            <a class="btn btn-light btn-block shadow-sm" href="#" target="_"><i
+                                    class="bi bi-apple"></i></a>
                         </div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-block" data-dismiss="modal">ปิดหน้าต่าง</button>
                 </div>
             </div>
         </div>
@@ -128,22 +191,35 @@
 
 
     <script>
-        const song_links = ["youtube", "spotify"]
+        const song_links = ["youtube", "spotify", "apple"]
         $(document).ready(async () => {
+            const is_show = []
             const song = await fetch("/song.json").then(res => res.json());
-            $("#song_count").html(song.length)
+
+            function randomSong() {
+                if(is_show.length >= song.length) return song[Math.floor(Math.random() * song.length)];
+                else {
+                    const random = song[Math.floor(Math.random() * song.length)];
+                    if(is_show.find(_ => _.title == random.title)) return randomSong()
+                    is_show.push(random)
+                    return random
+                }
+            }
+
             $("#request_song").click(() => {
-                const song_selected = song[Math.floor(Math.random() * song.length)];
+                const song_selected = randomSong()
                 $("#song_selected").modal("show")
                 $("#song_thumbnail").attr("src", song_selected["thumbnail"])
                 $("#song_title").html(song_selected["title"])
 
-                for(let value of song_links) {
-                    $("#song_"+value).hide()
+                $("#song_desc").html(song_selected["description"] ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+song_selected["description"] : "")
+
+                for (let value of song_links) {
+                    $("#song_" + value).hide()
                 }
 
                 Object.keys(song_selected["links"]).forEach((value) => {
-                    const link_element = $("#song_"+value)
+                    const link_element = $("#song_" + value)
                     link_element.show()
                     link_element.find("a").attr("href", song_selected["links"][value])
                 })

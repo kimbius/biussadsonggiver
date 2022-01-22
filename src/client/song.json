@@ -3,21 +3,24 @@
         "title": "Safeplanet - คำตอบ (Answer)",
         "thumbnail": "https://i.ytimg.com/vi/P2y-C4sQfCc/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/P2y-C4sQfCc"
+            "youtube": "https://youtu.be/P2y-C4sQfCc",
+            "apple": "https://music.apple.com/us/album/%E0%B8%84%E0%B8%B3%E0%B8%95%E0%B8%AD%E0%B8%9A/1437681025?i=1437681026"
         }
     },
     {
         "title": "Safeplanet - ข้างกาย ( With You )",
         "thumbnail": "https://i.ytimg.com/vi/4xvSFYbVa0U/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/4xvSFYbVa0U"
+            "youtube": "https://youtu.be/4xvSFYbVa0U",
+            "apple": "https://music.apple.com/us/album/%E0%B8%82-%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A2/1462851145?i=1462851266"
         }
     },
     {
         "title": "Safeplanet - กอดความเจ็บช้ำ ( Carry )",
         "thumbnail": "https://i.ytimg.com/vi/DJ-t5-CRSZY/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/DJ-t5-CRSZY"
+            "youtube": "https://youtu.be/DJ-t5-CRSZY",
+            "apple": "https://music.apple.com/us/album/%E0%B8%81%E0%B8%AD%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%88-%E0%B8%9A%E0%B8%8A-%E0%B8%B3/1449459891?i=1449459895"
         }
     },
     {
@@ -29,30 +32,44 @@
     },
     {
         "title": "MaxMillor - ประเภทที่เธอไม่ชอบ (Type)",
-        "thumbnail": "https://i.ytimg.com/vi/57l0W11eX5s/hqdefault.jpg",
+        "thumbnail": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/bd/90/a5/bd90a5c2-8a48-85ac-75e4-b88623492ca2/cover.jpg/500x500bb.webp",
         "links": {
-            "youtube": "https://youtu.be/57l0W11eX5s"
+            "youtube": "https://youtu.be/57l0W11eX5s",
+            "spotify": "https://open.spotify.com/track/3RCiqFe5QFyvAVCdDCVD4T",
+            "apple": "https://music.apple.com/th/album/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B8%97-%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B9%84%E0%B8%A1-%E0%B8%8A%E0%B8%AD%E0%B8%9A-type/1603656070?i=1603656074"
+        }
+    },
+    {
+        "title": "MaxMillor - วิเศษ (Magic)",
+        "thumbnail": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/bd/90/a5/bd90a5c2-8a48-85ac-75e4-b88623492ca2/cover.jpg/500x500bb.webp",
+        "links": {
+            "youtube": "https://youtu.be/KASKALbWIKY",
+            "spotify": "https://open.spotify.com/track/2Z9U0wFqsxoALv3qtJKlwH?si=467e6b9509034d4a",
+            "apple": "https://music.apple.com/th/album/%E0%B8%A7-%E0%B9%80%E0%B8%A8%E0%B8%A9-magic/1603656070?i=1603656078"
         }
     },
     {
         "title": "แบก : FREEHAND",
         "thumbnail": "https://i.ytimg.com/vi/JRNR674sU18/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/JRNR674sU18"
+            "youtube": "https://youtu.be/JRNR674sU18",
+            "spotify": "https://open.spotify.com/track/3R4B85NQjiN9M85qeFbz5z"
         }
     },
     {
         "title": "รสหวาน : FREEHAND",
         "thumbnail": "https://i.ytimg.com/vi/NqGpIWumd8s/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/NqGpIWumd8s"
+            "youtube": "https://youtu.be/NqGpIWumd8s",
+            "spotify": "https://open.spotify.com/track/2Ab1HQjbMcqHY3TkTycrYr"
         }
     },
     {
         "title": "AUTTA - วันอากาศดีๆ ที่ไม่มีเธออยู่",
         "thumbnail": "https://i.ytimg.com/vi/Ok8BVWQwSS4/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/Ok8BVWQwSS4"
+            "youtube": "https://youtu.be/Ok8BVWQwSS4",
+            "apple": "https://music.apple.com/us/album/%E0%B8%A7-%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94-%E0%B9%86-%E0%B8%97-%E0%B9%84%E0%B8%A1-%E0%B8%A1-%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B8%AD%E0%B8%A2/1547211009?i=1547211012"
         }
     },
     {
@@ -73,20 +90,129 @@
         "title": "sameplace | อาจจะพบคุณในวันพรุ่งนี้",
         "thumbnail": "https://i.ytimg.com/vi/r_ka978rPM8/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/r_ka978rPM8"
+            "youtube": "https://youtu.be/r_ka978rPM8",
+            "apple": "https://music.apple.com/us/album/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%88%E0%B8%B0%E0%B8%9E%E0%B8%9A%E0%B8%84-%E0%B8%93%E0%B9%83%E0%B8%99%E0%B8%A7-%E0%B8%99%E0%B8%9E%E0%B8%A3-%E0%B8%87%E0%B8%99/1568090928?i=1568090933"
         }
     },
     {
         "title": "LAZYLOXY - MORNING",
         "thumbnail": "https://i.ytimg.com/vi/o3EX5wsxexA/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/o3EX5wsxexA"
+            "youtube": "https://youtu.be/o3EX5wsxexA",
+            "apple": "https://music.apple.com/us/album/morning/1448660646?i=1448660647"
         }
-    }, {
+    },
+    {
         "title": "ANATOMY RABBIT - ขอให้โลกนี้ใจดีกับเธอ Feat. Alien SAFEPLANET",
         "thumbnail": "https://i.ytimg.com/vi/tXGoj10MZVM/hqdefault.jpg",
         "links": {
-            "youtube": "https://youtu.be/tXGoj10MZVM"
+            "youtube": "https://youtu.be/tXGoj10MZVM",
+            "apple": "https://music.apple.com/us/album/%E0%B8%82%E0%B8%AD%E0%B9%83%E0%B8%AB-%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%99-%E0%B9%83%E0%B8%88%E0%B8%94-%E0%B8%81-%E0%B8%9A%E0%B9%80%E0%B8%98%E0%B8%AD/1574302784?i=1574302800"
+        }
+    },
+    {
+        "title": "Patrickananda - Lavender",
+        "thumbnail": "https://linkstorage.linkfire.com/medialinks/images/58793181-ebd2-4c75-998b-f27ccedff93b/artwork-440x440.jpg",
+        "links": {
+            "youtube": "https://youtu.be/V69g4fo8oZ0",
+            "apple": "https://music.apple.com/th/album/1588107938",
+            "spotify": "https://open.spotify.com/track/3BV2YcwoVRxK4dXxyaHpZU"
+        },
+        "description": "💜 ในวันที่ยังมีกันอยู่ เราอาจไม่เคยเห็นความสำคัญของอีกคน บางคำพูด บางการกระทำอาจจะทำร้ายอีกคน สะสมจนถึงวันที่ไม่สามารถฝืนทนกันได้อีกต่อไป และเมื่อถึงวันสุดท้ายของความสัมพันธ์ แม้เราจะอยากให้ความทรงจำดีๆ ระหว่างกันได้ทำหน้าที่เรียกร้องให้คนที่เรารักกลับมาแค่ไหน ถ้าคนหนึ่งหมดความผูกพัน ความหวังนั้นก็จะไม่มีวันเกิดขึ้นจริง"
+    },
+    {
+        "title": "ARII Takahashi - I'm Fine",
+        "thumbnail": "https://i.ytimg.com/vi/A4Y9qoPxUYw/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/A4Y9qoPxUYw"
+        }
+    }, {
+        "title": "Oasis - Patrickananda",
+        "thumbnail": "https://i.ytimg.com/vi/otRfHGPN5vo/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/otRfHGPN5vo",
+            "apple": "https://music.apple.com/us/album/oasis-single/1583050132"
+        },
+        "description": "เพลงนี้เป็นเพลงของทุกคนที่ต้องการกำลังใจในช่วงเวลาที่อ่อนแอ ซึ่งเพลงนี้ก็ทำหน้าที่ไม่ต่างกับ oasis แหล่งน้ำกลางทะเลทรายที่ทำหน้าที่ชุบฟื้นให้สิ่งมีชีวิตที่อยู่ใกล้ๆ และคนที่ได้ฟังเพลงเพลงนี้ก็จะรับรู้ได้ว่า ไม่ว่าคุณจะมองไปทางไหนก็จะเจอความห่วงใยนั้นเสมอ"
+    },
+    {
+        "title": "242 - you're the only one",
+        "thumbnail": "https://i.ytimg.com/vi/iHlzXRTCalk/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/iHlzXRTCalk",
+            "apple": "https://music.apple.com/us/album/youre-the-only-one-single/1579516531"
+        }
+    }, {
+        "title": "242 - ดีไปหมด (flowers)",
+        "thumbnail": "https://i.ytimg.com/vi/XlgxROHGrgE/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/XlgxROHGrgE",
+            "apple": "https://music.apple.com/us/album/%E0%B8%94-%E0%B9%84%E0%B8%9B%E0%B8%AB%E0%B8%A1%E0%B8%94-flowers-single/1597315850"
+        }
+    }, {
+        "title": "NUTH - เจ็บที่รัก",
+        "thumbnail": "https://i.ytimg.com/vi/orUMlvk7rU0/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/orUMlvk7rU0"
+        }
+    }, {
+        "title": "NUTH - หวง",
+        "thumbnail": "https://i.ytimg.com/vi/0UGiPLpc4KU/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/0UGiPLpc4KU"
+        }
+    }, {
+        "title": "NUTH - ทฤษฎีไม่คิดถึงเธอ",
+        "thumbnail": "https://i.ytimg.com/vi/pVXbZfuWees/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/pVXbZfuWees"
+        }
+    }, {
+        "title": "MALATE - ฝันดี (Good Night)",
+        "thumbnail": "https://i.ytimg.com/vi/IVgrK7W2Upo/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/IVgrK7W2Upo",
+            "apple": "https://music.apple.com/us/album/%E0%B8%9D-%E0%B8%99%E0%B8%94-goodnight-single/1597869431"
+        }
+    }, {
+        "title": "MALATE - รีบลบ (Delete)",
+        "thumbnail": "https://i.ytimg.com/vi/eJbz8YeTH14/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/eJbz8YeTH14",
+            "spotify": "https://open.spotify.com/track/3X4Q5RCc6OPn5Ab10az5D0",
+            "apple": "https://music.apple.com/us/album/%E0%B8%A3-%E0%B8%9A%E0%B8%A5%E0%B8%9A-delete/1559359662?i=1559359750"
+        }
+    }, {
+        "title": "imnutt - เธอเก่งที่สุดในโลก ;) (Person of the Year)",
+        "thumbnail": "https://i.ytimg.com/vi/7KIQkaPgFhM/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/7KIQkaPgFhM",
+            "spotify": "https://open.spotify.com/track/0JPXWbh6MeFBJZpgTl294b",
+            "apple": "https://music.apple.com/us/album/%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B9%80%E0%B8%81-%E0%B8%87%E0%B8%97-%E0%B8%AA-%E0%B8%94%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81-person-of-the-year/1597528554?i=1597528555"
+        },
+        "description": "ที่ผ่านมาจนถึงตอนนี้ได้ เธอก็เก่งที่สุดในโลกแล้วนะ อย่างน้อยก็สำหรับฉันคนนึงล่ะ ;)"
+    }, {
+        "title": "ANYSIDE - ฤดูผลิบาน",
+        "thumbnail": "https://i.ytimg.com/vi/9kH6HcofNcI/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/9kH6HcofNcI",
+            "apple": "https://music.apple.com/us/album/%E0%B8%A4%E0%B8%94-%E0%B8%9C%E0%B8%A5-%E0%B8%9A%E0%B8%B2%E0%B8%99/1597751817?i=1597751818"
+        }
+    }, {
+        "title": "rubberstamp - ไม่ได้คิดไปเองหรอก (maidaikid)",
+        "thumbnail": "https://i.ytimg.com/vi/OfL_Oiy0a1Q/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/OfL_Oiy0a1Q",
+            "spotify": "https://open.spotify.com/track/3H2AXlFl4KG8RQnVS2kWe3",
+            "apple": "https://music.apple.com/th/album/%E0%B9%84%E0%B8%A1-%E0%B9%84%E0%B8%94-%E0%B8%84-%E0%B8%94%E0%B9%84%E0%B8%9B%E0%B9%80%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A3%E0%B8%AD%E0%B8%81-maidaikid/1596912676?i=1596912677&l=th"
+        }
+    }, {
+        "title": "rubberstamp - ภาพที่ลอยเข้ามา | afterimage",
+        "thumbnail": "https://i.ytimg.com/vi/8z84z9YWJ8c/hqdefault.jpg",
+        "links": {
+            "youtube": "https://youtu.be/8z84z9YWJ8c",
+            "spotify": "https://open.spotify.com/track/7xV3rudUI37xLqTE70Mo8e",
+            "apple": "https://music.apple.com/us/album/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97-%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B9%80%E0%B8%82-%E0%B8%B2%E0%B8%A1%E0%B8%B2/1584183217?i=1584183218"
         }
     }
 ]
