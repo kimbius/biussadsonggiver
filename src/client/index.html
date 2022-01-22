@@ -203,7 +203,7 @@
         const song_links = ["youtube", "spotify", "apple"]
         $(document).ready(async () => {
             let github = await fetch("https://api.github.com/repos/kimbius/biussadsonggiver/commits?sha=main").then(res => res.json());
-            github = github[github.length-1]
+            github = github[0]
             $("#buildtext").html("build: "+github["sha"])
 
             const is_show = []
